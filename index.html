@@ -4,6 +4,8 @@
     <title>Ryans Website</title>
     <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="styles/style.css" rel="stylesheet">
 </head>
 <style>
@@ -14,17 +16,25 @@ body{
 <body>
     <header>
     <h1><center>Ryans Website</center></h1>
-    <h2>Comp Camp Website</h2>
+    <h2><center>Comp Camp Website</center></h2>
   </header>
-  <nav>
-    <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="project.html">PROJECT</a></li>
-      <li><a href="music.html">MUSIC</a></li>
-    </ul>
-  </nav>
-  <main>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <nav>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="music.html">MUSIC</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  <div class="col-md-10">
+    <img src="images/rcarignan.jpg" class="img-rounded"/>
     <p>My Favorite colour is a metalic red.</p>
+  </div>
   </main>
   <footer><i><b>coyright 'n' shtuff MMXVII no casino gaming studioes</b></i></footer>
 </body>

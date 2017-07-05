@@ -6,15 +6,24 @@ body{
 }
 .h1{
 color: #bbd4d8;
-
-}
-main {
-color: orange
-
+position: center;
 }
 
-nav {
-  text-align: center;
+
+
+p {
+background-color: #910500
+
+
+
+}
+tr:nth-child(odd){
+  background-color: #CD4908
+
+
+}
+.img-circle{
+border-radius: 50%;
 
 
 }
