@@ -1,29 +1,45 @@
 body{
   font-family: 'Oswald', sans-serif;
-  background-color: #36454f;
-  color: #bbd4d8;
-  border-color: orange
+  background-color: #132C44;
+  color: #3E6991;
+
 }
-.h1{
-color: #bbd4d8;
-position: center;
+.header{
+background-color: #DD8716;
+width: 50%;
+height: auto;
+margin: auto;
 }
+h1{
+color: #3E6991;
+
+}
+
 
 
 
 p {
-background-color: #910500
-
-
-
+background-color: #DD8716;
+text-align:left;
+margin: auto;
+width:50%;
 }
 tr:nth-child(odd){
-  background-color: #CD4908
+  background-color: #DD8716;
 
 
 }
-.img-circle{
+.img-rounded{
 border-radius: 50%;
+margin: auto;
+}
+.img-circle{
+height: auto;
+width: 1%;
+}
 
-
+.center-tag-not {
+  margin: auto;
+  display: block;
+  width: 10%;
 }
