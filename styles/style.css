@@ -33,9 +33,11 @@ tr:nth-child(odd){
 border-radius: 50%;
 margin: auto;
 }
-.img-circle{
-height: auto;
-width: 1%;
+.img-square{
+height: 300px;
+width: 300px;
+margin: auto;
+display: block;
 }
 
 .center-tag-not {
