@@ -1,7 +1,7 @@
 body{
   font-family: 'Oswald', sans-serif;
 
-  color: #0B3D91;
+  color: #70B6FF;
 
 
 }
@@ -16,11 +16,20 @@ h1{
 color: #0B3D91;
 }
 
+.h2 {
+color: #6B0600;
 
+}
+.hcolor1{
+background-color: #12487F;
+width: 50%;
+height: auto;
+margin: auto;
 
+}
 
 p {
-background-color: #7F3433;
+background-color: #CC0B00;
 text-align:left;
 margin: auto;
 width:50%;
@@ -29,9 +38,9 @@ font-size: 20px;
 }
 tr:nth-child(odd){
   background-color: #7F3433;
-
-
 }
+
+
 .img-rounded{
 border-radius: 50%;
 margin: auto;
@@ -72,8 +81,35 @@ background-attachment: fixed;
 }
 
 .photo3 {
-  background-image: url('../images/comp4.jpg');
+  background-image: url('../images/comp2.jpg');
   background-attachment: fixed;
 
 
+}
+
+.pclass1 {
+  color: #70B6FF;
+  background-color:  #12487F;
+  text-align:left;
+  margin: auto;
+  width:50%;
+  font-size: 20px;
+  padding: 10px;
+}
+.pclass2 {
+  color: #6B0600;
+  background-color:  #CC0B00;
+  text-align:left;
+  margin: auto;
+  width:50%;
+  font-size: 20px;
+  padding: 10px;
+
+}
+.hcolor2{
+background-color: #CC0B00;
+width: 50%;
+height: auto;
+margin: auto;
+color: #6B0600;
 }
