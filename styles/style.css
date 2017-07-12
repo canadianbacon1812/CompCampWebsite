@@ -1,31 +1,34 @@
 body{
   font-family: 'Oswald', sans-serif;
-  background-color: #132C44;
-  color: #3E6991;
+
+  color: #0B3D91;
+
 
 }
 .header{
-background-color: #DD8716;
+background-color: #7F3433;
 width: 50%;
 height: auto;
 margin: auto;
+
 }
 h1{
-color: #3E6991;
-
+color: #0B3D91;
 }
 
 
 
 
 p {
-background-color: #DD8716;
+background-color: #7F3433;
 text-align:left;
 margin: auto;
 width:50%;
+color: white;
+font-size: 20px;
 }
 tr:nth-child(odd){
-  background-color: #DD8716;
+  background-color: #7F3433;
 
 
 }
@@ -44,4 +47,33 @@ display: block;
   margin: auto;
   display: block;
   width: 10%;
+}
+
+
+
+footer{
+background-color: #28247F;
+background-size: 51px;
+}
+.smallpic {
+width: 100%;
+height: 100%;
+
+}
+.photo1 {
+  background-image: url('../images/comp1.jpg');
+background-attachment: fixed;
+
+}
+.photo2 {
+  background-image: url('../images/comp3.jpg');
+  background-attachment: fixed;
+
+}
+
+.photo3 {
+  background-image: url('../images/comp4.jpg');
+  background-attachment: fixed;
+
+
 }
