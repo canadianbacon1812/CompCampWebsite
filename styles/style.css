@@ -13,12 +13,13 @@ margin: auto;
 
 }
 h1{
-color: #0B3D91;
+color: #70B6FF;
 }
 
 .h2 {
 color: #6B0600;
-
+font-size: 50px;
+padding: 10px;
 }
 .hcolor1{
 background-color: #12487F;
@@ -29,7 +30,7 @@ margin: auto;
 }
 
 p {
-background-color: #CC0B00;
+background-color: #000000;
 text-align:left;
 margin: auto;
 width:50%;
@@ -53,9 +54,9 @@ display: block;
 }
 
 .center-tag-not {
-  margin: auto;
+margin: auto;
   display: block;
-  width: 10%;
+  width: 15%;
 }
 
 
@@ -70,7 +71,7 @@ height: 100%;
 
 }
 .photo1 {
-  background-image: url('../images/comp1.jpg');
+  background-image: url('../images/badcomp.jpg');
 background-attachment: fixed;
 
 }
@@ -97,8 +98,8 @@ background-attachment: fixed;
   padding: 10px;
 }
 .pclass2 {
-  color: #6B0600;
-  background-color:  #CC0B00;
+  color: #660f00;
+  background-color:  #A41700;
   text-align:left;
   margin: auto;
   width:50%;
@@ -107,9 +108,36 @@ background-attachment: fixed;
 
 }
 .hcolor2{
-background-color: #CC0B00;
+background-color: #A41700;
 width: 50%;
 height: auto;
 margin: auto;
 color: #6B0600;
+}
+
+.h3{
+padding: 5px;
+font-size: 30px;
+
+}
+
+.h4{
+  font-size: 50px;
+  padding: 10px;
+
+}
+.h5{
+padding: 5px;
+font-size: 30px;
+
+}
+
+.myslides {
+height: 25%;
+width: 25%;
+
+}
+.myslides{
+display: none;
+
 }
